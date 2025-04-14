@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.section1 {
+    overflow-x: hidden;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 5% auto; 
+    text-align: center;
+    width: 50%;
+}
+
+.section1 .main_content {
+    padding: 2rem;
+}
+
+.login-form {
+    overflow-x: hidden;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 5% auto; 
+    text-align: center;
+    width: 50%;
+}
